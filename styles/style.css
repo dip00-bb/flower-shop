@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* ---------------------------------- repeated style --------------------------------- */
+
+
+
+
+
+
+
+/* ---------------------------------- header --------------------------------- */
+
+
+header {
+    width: 100%;
+    background: rgba(229, 84, 115, 0.1);
+    padding: 0 240px;
+    display: flex;
+    margin-bottom: 178px;
+}
+
+.content {
+    width: 47%;
+    margin-top: 110px;
+
+}
+
+
+.content h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    line-height: auto;
+    margin-bottom: 2rem;
+
+}
+
+.content p {
+    margin-bottom: 2rem;
+}
+
+.content button {
+    margin-bottom: 147px;
+}
+
+.right {
+    width: 635px;
+    height: 800px;
+    margin: 50px 0px 0 97px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+/* ------------------------------------------------ main ------------------------------------------------- */
+
+
+
+
+main {
+    width: 100%;
+    padding: 0 240px;
+}
+
+
+
+
+
+/* ------------------------------------------------ flowers section ------------------------------------------------- */
+
+#flowers{
+    width: 100%;
+}
+#flowers .heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+#flowers .heading .title{
+    width: 42%;
+    text-align: center;
+} 
+
+
+.flower-div{
+    width: 100%;
+    gap: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.flower-div .flower-container{
+    /* text-align: center; */
+
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.flower-div .flower-container p{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top:32px;
+    text-decoration: underline;
+    text-decoration-color:#807c7c ;
+}
+
+.flower-div .flower-container .flower-img{
+    width: 90%;
+    height: 100%;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} 
+
+
+.flower-div .flower-container .rose{
+    background-color:rgba(167, 33, 98, 0.15);
+}
+
+.flower-div .flower-container .mix{
+    background-color:rgba(5, 151, 160, 0.15);
+}
+.flower-div .flower-container .beli{
+    background-color:rgba(71, 125, 17, 0.15);
+}
+
+.flower-div .flower-container .flower-img img{
+    height: 90%;
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    header {
+        width: 100%;
+        background: rgba(229, 84, 115, 0.1);
+        padding: 20px 10px;
+        display: flex;
+        margin-bottom: 38px;
+    }
+
+    .content {
+        width: 85%;
+        margin-top: 0;
+
+    }
+
+    .content h1 {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        line-height: auto;
+        margin-bottom: 1rem;
+
+    }
+
+
+    .content p {
+        font-size: 0.8rem;
+        line-height: 20px;
+        margin-bottom: 1rem;
+    }
+
+    .content button {
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 12px;
+        padding: 2px 3px;
+        margin-bottom: 0px;
+    }
+
+    .right {
+        width: 43%;
+        height: 94%;
+        display: none;
+    }
+       
+    main{
+        padding: 0 20px;
+    }
+
+ 
+
+    #flowers .heading .title{
+        width: 100%;
+        text-align: center;
+    } 
+
+    .title-heading{
+        font-size: 25px;
+        font-weight: larger;
+    }
+    
+    
+    
+    .description {
+        font-size: 1rem;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+    .flower-div{
+        flex-direction: column;
+    }
+      
+    .flower-div .flower-container{
+        /* text-align: center; */
+        width: 100%;
+    } 
+    .flower-div .flower-container .mix{
+        object-fit: contain;
+
+    }
+    .flower-div .flower-container p{
+        font-size: 20px;
+        margin:20px 0;
+    }
+}
+
+
+
+@media (max-width: 768px) and (min-width: 577px) {
+
+    header {
+        width: 100%;
+        background: rgba(229, 84, 115, 0.1);
+        padding: 30px 20px;
+        display: flex;
+        margin-bottom: 78px;
+    }
+
+    .content {
+        width: 65%;
+        margin-top: 0;
+
+    }
+
+    .content h1 {
+        font-size: 1.8rem;
+        font-weight: bolder;
+        line-height: auto;
+        margin-bottom: 1rem;
+
+    }
+
+
+    .content p {
+        font-size: 0.7rem;
+        color: rgba(39, 39, 39, 0.6);
+        line-height: 20px;
+        margin-bottom: 1rem;
+
+    }
+
+    .content button {
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 12px;
+        padding: 2px 3px;
+        margin-bottom: 0px;
+    }
+
+    .right {
+        width: 22%;
+        height: 1%;
+        margin: 0px 0px 0 87px;
+
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
